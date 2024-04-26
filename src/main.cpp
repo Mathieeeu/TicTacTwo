@@ -9,4 +9,8 @@ int main()
 {
 	CGame game;
 	game.Start();
+
+	cin.ignore();
+	cout << "Press enter to exit...";
+	cin.get();
 }
